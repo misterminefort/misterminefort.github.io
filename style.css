@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: darkcyan;
+    color: darkgray;
+}
+table {
+    border: 1px solid white; 
+    font-size: 20px;
+}
+main p {
+    font-size: 20px;
+}
+main {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+img {
+    transition: transform 0.35s ease-in-out
+}
+img:hover {
+    transform: scale(1.25);
+}
+td {
+    border: 1px solid white;
+    color: grey;
+    background-color: lightgrey;
+}
+footer {
+    text-align: center;
+    background-color: green;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 20px;
+}
+header {
+    background-color:gray;
+}
+.link {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
