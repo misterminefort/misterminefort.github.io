@@ -1,0 +1,129 @@
+html {
+    font-family: sans-serif;
+}
+@keyframes fart {
+    0% {
+      background-position: 0px 0px;
+    }
+    50% {
+      background-position: 0px 100px;
+    }
+    100% {
+      background-position: 0px 0px;
+    }
+  }
+body {
+    background-image: linear-gradient(orange,darkorange);
+    background-size: 50px 50px;
+    animation: fart 10s infinite;
+}
+main {
+    width: 80%;
+    margin:auto;
+    margin-top: 30px;
+}
+header {
+    height:100px;
+    display:flex;
+    justify-content: space-around;
+    backdrop-filter: sepia(90%);
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 10px;
+}
+header h1 {
+    font-size: 50px;
+    position: relative;
+    top:-14px;
+}
+.buy {
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height:30px;
+    width:110px;
+    border-radius: 5px;
+    background-color: green;
+    transition: ease-in-out 0.5s;
+}
+.buy:hover {
+    font-size: 30px;
+    height:40px;
+    width:150px;
+}
+.buy2:hover {
+    font-size: 30px;
+    height:40px;
+    width:150px;
+}
+.buy2 {
+    margin: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height:30px;
+    width:110px;
+    border-radius: 5px;
+    background-color: green;
+    transition: ease-in-out 0.5s;
+}
+
+
+.buy::before {
+    position: relative;
+    top:7px;
+    left: 2px;
+    background-image: url('https://www.svgrepo.com/show/157035/basket.svg');
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px; 
+    height: 15px;
+    content:"";
+}
+.buy2::before {
+    position: relative;
+    top:7px;
+    left: 2px;
+    background-image: url('https://www.svgrepo.com/show/157035/basket.svg');
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 15px; 
+    height: 15px;
+    content:"";
+}
+article {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 650px;
+    width: 350px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    backdrop-filter: invert(100%) sepia(70%) blur(7px);
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 0 black;
+    border-radius: 10px;
+    color: white;
+}
+
+section {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+span {
+    color: lightgreen;
+}
+
+footer {
+    background-color: gray;
+}
+footer p {
+    margin: 2px;
+}
